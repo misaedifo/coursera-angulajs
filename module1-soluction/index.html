@@ -20,6 +20,14 @@
     .red {
       color: red;
     }
+    
+    .borderred {
+      border-color: red;
+    }
+    
+    .bordergreen {
+      border-color: green;
+    }
   </style>
 </head>
 
@@ -28,7 +36,7 @@
     <h1>Lunch Checker</h1>
 
     <div class="form-group">
-      <input ng-model="lunches" id="lunch-menu" type="text" placeholder="list comma separated dishes you usually have for lunch"
+      <input class="{{border}}" ng-model="lunches" id="lunch-menu" type="text" placeholder="list comma separated dishes you usually have for lunch"
         class="form-control">
     </div>
     <div class="form-group">
