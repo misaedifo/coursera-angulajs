@@ -11,7 +11,7 @@
         $scope.checkIfTooMuch = function () {
             var data = $scope.lunches.split(',');
             if ($scope.lunches.length == 0) {
-                $scope.messaje = 'Please entre data first';
+                $scope.messaje = 'Please enter data first';
                 $scope.border='borderred';
                 return;
             }
