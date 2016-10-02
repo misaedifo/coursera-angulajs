@@ -30,23 +30,23 @@
         var itemsToBuy = [
             {
                 name: 'Cookies',
-                quantity: '3 bags'
+                quantity: '3'
             },
             {
                 name: 'Chips',
-                quantity: '6 bags'
+                quantity: '6'
             },
             {
                 name: 'Potatoe',
-                quantity: '20 pouns'
+                quantity: '20'
             },
             {
                 name: 'Pesto bismol',
-                quantity: '3 bottles'
+                quantity: '3'
             },
             {
                 name: 'Apple',
-                quantity: '15 units'
+                quantity: '15'
             }
         ];
 
